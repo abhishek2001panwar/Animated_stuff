@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    
+     <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+      ::-webkit-scrollbar{
+        height: 5px ;
+        width: 2px;
+      }
+       .name{
+     
+        background: linear-gradient(90deg, #0cee4c, #9dea9c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: white;
+        
+                -webkit-text-stroke: 4px black; /* Width and color of the stroke */
+
+      } 
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav flex justify-between p-6">
+        <div class="logo text-xl uppercase">portfolio</div>
+        <div class="menu capitalize">
+          <ul class="flex gap-5 text-xl uppercase">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+
+   
+        <div class="hero w-[90%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <h1 class=" h1 text-3xl md:text-9xl font-light">HELLO I'M</h1>
+            <h1 class="h1 text-3xl  md:text-9xl name font-semibold stroke-2 text-center items-center">ABHISHEK PANWAR</h1>
+            <h1 class=" h1 text-3xl font-light md:text-8xl">MERN DEVELOPER</h1>
+        </div>
+   
+        <div class="page1 bg-zinc-00 w-full h-[60vh] mt-[50%]">
+          <!-- <div
+            class=" circle w-52 h-52 rounded-md bg-zinc-800 flex justify-center items-center"
+          >
+            circle
+          </div> -->
+          <div class="flex gap-10 p-32 justify-center items-center">
+            <h1 class=" name text-6xl font-semibold text-center items-center ">
+              ABOUT ME
+            </h1>
+            <p class="text-2xl font-light text-center items-center w-1/2">
+              I am a MERN stack developer. I have been working in this field for
+              the past 2 years. I have worked on various projects and have
+              experience in working with various technologies. I am a quick
+              learner and can adapt to any environment. I am a team player and
+              can work in a team as well as individually. I am a hardworking and
+              dedicated person. I am always ready to learn new things and
+              improve my skills.
+            </p>
+          </div>
+        </div>
+        <div class="page2 bg-zinc-300 w-full h-[100vh]">
+          <div
+            class=" circle w-52 h-52 rounded-md bg-zinc-800 flex justify-center items-center"
+          ></div>
+        </div>
+        <div class="page3 bg-zinc-400 w-full h-[100vh]">
+          <div
+            class=" circle w-52 h-52 rounded-md bg-zinc-800 flex justify-center items-center"
+          ></div>
+        </div>
+    
+
+      <div class="pineffect w-full h-[100vh]">
+          <img class=" w-[20%] object-cover relative -translate-x-[50%]  left-[50%]  h-full" src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1vZGVsfGVufDB8MHwwfHx8MA%3D%3D" alt="">
+      </div>
+      <div class="texteffect bg-zinc-200  h-screen w-full flex items-center  ">
+        <h1 class="name font-bold text-[10vw] overflow-x-scroll ">Smart way to learn and grow</h1>
+
+      
+    </div>
+    <div class="string">
+      <svg width="1200" height="160" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 10 100 Q 500 100 1000 100 " stroke="black" fill="transparent"/>
+      </svg>
+    </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
